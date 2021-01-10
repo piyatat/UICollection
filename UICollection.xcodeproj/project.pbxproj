@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3ABD630258639DC003F1713 /* PagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABD62F258639DC003F1713 /* PagingScrollView.swift */; };
 		B3D85696256A3B0F001E40D8 /* UICollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D85695256A3B0F001E40D8 /* UICollectionApp.swift */; };
 		B3D85698256A3B0F001E40D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D85697256A3B0F001E40D8 /* ContentView.swift */; };
 		B3D8569A256A3B10001E40D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D85699256A3B10001E40D8 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3ABD62F258639DC003F1713 /* PagingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollView.swift; sourceTree = "<group>"; };
 		B3D85692256A3B0F001E40D8 /* UICollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D85695256A3B0F001E40D8 /* UICollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionApp.swift; sourceTree = "<group>"; };
 		B3D85697256A3B0F001E40D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3ABD62E258639C8003F1713 /* PagingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B3ABD62F258639DC003F1713 /* PagingScrollView.swift */,
+			);
+			path = PagingScrollView;
+			sourceTree = "<group>";
+		};
 		B3D85689256A3B0F001E40D8 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 				B3D85697256A3B0F001E40D8 /* ContentView.swift */,
 				B3D85699256A3B10001E40D8 /* Assets.xcassets */,
 				B3D8569E256A3B10001E40D8 /* Info.plist */,
+				B3ABD62E258639C8003F1713 /* PagingScrollView */,
 				B3D856A8256A3C4D001E40D8 /* SideMenu */,
 				B3D856AF256A3CF3001E40D8 /* StretchyHeader */,
 				B3D8569B256A3B10001E40D8 /* Preview Content */,
@@ -168,6 +179,7 @@
 				B3D85698256A3B0F001E40D8 /* ContentView.swift in Sources */,
 				B3D856B1256A3D11001E40D8 /* StretchyHeader.swift in Sources */,
 				B3D85696256A3B0F001E40D8 /* UICollectionApp.swift in Sources */,
+				B3ABD630258639DC003F1713 /* PagingScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
